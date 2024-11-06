@@ -138,6 +138,15 @@ img{
     width: 700px;
     margin-bottom: 40px;
 }
+.testimonials-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.testimonials .card p:nth-child(2){
+    margin-top: 10px;
+    font-weight: bold;
+}
 
 /* Text utiltity */
 .text-xxl{
@@ -188,4 +197,12 @@ img{
 .bg-black{
     background: #000;
     color: #fff;
+}
+
+.card{
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+
 }
